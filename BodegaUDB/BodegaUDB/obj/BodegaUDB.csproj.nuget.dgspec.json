@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kelvi\\source\\repos\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj": {}
+    "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kelvi\\source\\repos\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj": {
+    "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kelvi\\source\\repos\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
+        "projectUniqueName": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
         "projectName": "BodegaUDB",
-        "projectPath": "C:\\Users\\kelvi\\source\\repos\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
+        "projectPath": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
         "packagesPath": "C:\\Users\\kelvi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kelvi\\source\\repos\\BodegaUDB\\BodegaUDB\\obj\\",
+        "outputPath": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kelvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.10, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,7 +1,20 @@
+using BodegaUDB.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+
+//Service de la BDD.
+builder.Services.AddDbContext<BodegaDspContext>(
+    options =>
+    {
+        options.UseSqlServer(builder.Configuration.GetConnectionString("BodegaDspContext"));
+    });
+
 
 var app = builder.Build();
 
