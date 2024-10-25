@@ -23,6 +23,30 @@ namespace BodegaUDB.Controllers
             return View();
         }
 
+        public IActionResult CrearProducto()
+        {
+
+            return RedirectToAction("CrearProducto", "ProductoLote");
+        }
+
+        public IActionResult CrearLote()
+        {
+           
+            return RedirectToAction("CrearLote", "ProductoLote");
+        }
+
+        public IActionResult ListaProductos()
+        {
+          
+            return RedirectToAction("ListaProductos", "ProductoLote");
+        }
+
+        public IActionResult ListaLotes()
+        {
+
+            return RedirectToAction("ListaLotes", "ProductoLote");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

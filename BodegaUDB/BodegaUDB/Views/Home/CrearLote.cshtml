@@ -1,0 +1,39 @@
+﻿@model BodegaUDB.Models.Lote
+
+<h2>Crear Nuevo Lote</h2>
+
+<form asp-controller="ProductoLote"  asp-action="CrearLote" method="post">
+    <div class="form-group">
+        <label for="NumSerie">Número de Serie</label>
+        <input type="number" class="form-control" id="NumSerie" name="NumSerie" required />
+    </div>
+
+    <div class="form-group">
+        <label for="FechaProduccion">Fecha de Producción</label>
+        <input type="date" class="form-control" id="FechaProduccion" name="FechaProduccion" required />
+    </div>
+
+    <div class="form-group">
+        <label for="FechaIngreso">Fecha de Ingreso</label>
+        <input type="date" class="form-control" id="FechaIngreso" name="FechaIngreso" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Precio">Precio</label>
+        <input type="number" step="0.01" class="form-control" id="Precio" name="Precio" required />
+    </div>
+
+    <div class="form-group">
+        <label for="IdProveedor">Proveedor</label>
+        <select class="form-control" id="IdProveedor" name="IdProveedor" required>
+            <option value="">Seleccione un proveedor</option>
+            @foreach (var proveedor in ViewBag.Proveedores)
+            {
+                <option value="@proveedor.IdProveedor">@proveedor.Nombre</option>
+            }
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-success">Guardar Lote</button>
+    <a href="@Url.Action("ListaLotes", "Lote")" class="btn btn-secondary">Cancelar</a>
+</form>

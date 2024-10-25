@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj": {}
+    "D:\\Luis\\Desktop\\DSP 01T\\DSP-CATEDRA-UDB-1\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj": {
+    "D:\\Luis\\Desktop\\DSP 01T\\DSP-CATEDRA-UDB-1\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
+        "projectUniqueName": "D:\\Luis\\Desktop\\DSP 01T\\DSP-CATEDRA-UDB-1\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
         "projectName": "BodegaUDB",
-        "projectPath": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
-        "packagesPath": "C:\\Users\\kelvi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\obj\\",
+        "projectPath": "D:\\Luis\\Desktop\\DSP 01T\\DSP-CATEDRA-UDB-1\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
+        "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
+        "outputPath": "D:\\Luis\\Desktop\\DSP 01T\\DSP-CATEDRA-UDB-1\\BodegaUDB\\BodegaUDB\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\kelvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,6 +55,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.10, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.6, )"
             }
           },
           "imports": [
@@ -76,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

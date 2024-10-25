@@ -1,0 +1,43 @@
+﻿@model IEnumerable<BodegaUDB.Models.Lote>
+
+<h2>Lista de Lotes</h2>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-warning">
+        No hay lotes listados.
+    </div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Número de Serie</th>
+                <th>Fecha de Producción</th>
+                <th>Fecha de Ingreso</th>
+                <th>Precio</th>
+                <th>Proveedor</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var lote in Model)
+            {
+                <tr>
+                    <td>@lote.NumSerie</td>
+                    <td>@lote.FechaProduccion.ToString("yyyy-MM-dd")</td>
+                    <td>@lote.FechaIngreso.ToString("yyyy-MM-dd")</td>
+                    <td>@lote.Precio.ToString("$")</td>
+                    <td>@lote.IdProveedorNavigation.Nombre @lote.IdProveedorNavigation.Apellido</td>
+                    <td>
+                        <a href="@Url.Action("Editar", "Lote", new { id = lote.IdLote })" class="btn btn-primary">Editar</a>
+                        <a href="@Url.Action("Borrar", "Lote", new { id = lote.IdLote })" class="btn btn-danger">Borrar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+<a href="@Url.Action("CrearLote", "Home")" class="btn btn-success">Crear Nuevo Lote</a>

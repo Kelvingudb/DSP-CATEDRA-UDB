@@ -1,0 +1,43 @@
+﻿@model BodegaUDB.Models.Producto
+
+@{
+    ViewBag.Title = "Crear Producto";
+}
+
+<h2>Crear Producto</h2>
+
+@if (TempData["SuccessMessage"] != null)
+{
+    <div class="alert alert-success">
+        @TempData["SuccessMessage"]
+    </div>
+}
+
+<form asp-controller="ProductoLote" asp-action="CrearProducto" method="post">
+    <div class="form-group">
+        <label for="SerieLote">Lote</label>
+        <select class="form-control" id="SerieLote" name="SerieLote" required>
+            <option value="">Seleccione un lote</option>
+            @if (ViewBag.Lotes != null && ((List<BodegaUDB.Models.Lote>)ViewBag.Lotes).Any())
+            {
+                foreach (var lote in (List<BodegaUDB.Models.Lote>)ViewBag.Lotes)
+                {
+                    <option value="@lote.IdLote">@lote.NumSerie</option>
+                }
+            }
+            else
+            {
+                <option value="">No hay lotes disponibles</option>
+            }
+        </select>
+
+    </div>
+
+    <div class="form-group">
+        <label for="CategoriaProducto">Categoría del Producto</label>
+        <input type="text" class="form-control" id="CategoriaProducto" name="CategoriaProducto" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Producto</button>
+    <a asp-action="ListaProductos" class="btn btn-secondary">Cancelar</a>
+</form>
