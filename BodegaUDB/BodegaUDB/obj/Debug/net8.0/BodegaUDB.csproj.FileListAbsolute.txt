@@ -288,3 +288,10 @@ D:\Luis\Desktop\DSP 01T\DSP-CATEDRA-UDB-1\BodegaUDB\BodegaUDB\obj\Debug\net8.0\r
 D:\Luis\Desktop\DSP 01T\DSP-CATEDRA-UDB-1\BodegaUDB\BodegaUDB\obj\Debug\net8.0\BodegaUDB.pdb
 D:\Luis\Desktop\DSP 01T\DSP-CATEDRA-UDB-1\BodegaUDB\BodegaUDB\obj\Debug\net8.0\BodegaUDB.genruntimeconfig.cache
 D:\Luis\Desktop\DSP 01T\DSP-CATEDRA-UDB-1\BodegaUDB\BodegaUDB\obj\Debug\net8.0\ref\BodegaUDB.dll
+C:\Users\kelvi\DSP CATEDRA\BodegaUDB\BodegaUDB\bin\Debug\net8.0\System.Data.SqlClient.dll
+C:\Users\kelvi\DSP CATEDRA\BodegaUDB\BodegaUDB\bin\Debug\net8.0\runtimes\win-arm64\native\sni.dll
+C:\Users\kelvi\DSP CATEDRA\BodegaUDB\BodegaUDB\bin\Debug\net8.0\runtimes\win-x64\native\sni.dll
+C:\Users\kelvi\DSP CATEDRA\BodegaUDB\BodegaUDB\bin\Debug\net8.0\runtimes\win-x86\native\sni.dll
+C:\Users\kelvi\DSP CATEDRA\BodegaUDB\BodegaUDB\bin\Debug\net8.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kelvi\DSP CATEDRA\BodegaUDB\BodegaUDB\bin\Debug\net8.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\kelvi\DSP CATEDRA\BodegaUDB\BodegaUDB\obj\Debug\net8.0\scopedcss\Views\Shared\_LoginLayout.cshtml.rz.scp.css

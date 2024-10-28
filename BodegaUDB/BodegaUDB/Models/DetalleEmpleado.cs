@@ -19,7 +19,5 @@ public partial class DetalleEmpleado
 
     public DateOnly FechaRegistro { get; set; }
 
-    public int IdEmpleado { get; set; }
-
-    public virtual Empleado IdEmpleadoNavigation { get; set; } = null!;
+    public virtual Empleado? Empleado { get; set; }
 }

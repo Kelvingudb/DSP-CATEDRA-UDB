@@ -4326,19 +4326,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Luis\\.nuget\\packages\\": {}
+    "C:\\Users\\kelvi\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Luis\\Desktop\\DSP 01T\\DSP-CATEDRA-UDB-1\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
+      "projectUniqueName": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
       "projectName": "BodegaUDB",
-      "projectPath": "D:\\Luis\\Desktop\\DSP 01T\\DSP-CATEDRA-UDB-1\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
-      "packagesPath": "C:\\Users\\Luis\\.nuget\\packages\\",
-      "outputPath": "D:\\Luis\\Desktop\\DSP 01T\\DSP-CATEDRA-UDB-1\\BodegaUDB\\BodegaUDB\\obj\\",
+      "projectPath": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\BodegaUDB.csproj",
+      "packagesPath": "C:\\Users\\kelvi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Luis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\kelvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4404,7 +4404,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

@@ -11,7 +11,7 @@ public partial class Empleado
 
     public string Password { get; set; } = null!;
 
-    public virtual DetalleEmpleado? DetalleEmpleado { get; set; }
+    public int IdDetalleEmpleado { get; set; }
 
-    public virtual UserRol? UserRol { get; set; }
+    public virtual DetalleEmpleado IdDetalleEmpleadoNavigation { get; set; } = null!;
 }
