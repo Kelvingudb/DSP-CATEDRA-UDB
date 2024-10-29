@@ -1,0 +1,49 @@
+﻿@model List<BodegaUDB.Dtos.ProveedorLoteDto>;
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<section class="container w-100 h-100">
+    <h3>Registra un nuevo Lote</h3>
+    <form method="post" asp-action="RegisterPost" asp-controller="Lote">
+        <!-- Campo NUM_SERIE -->
+        <div class="mb-3">
+            <label for="numSerie" class="form-label">Número de Serie</label>
+            <input type="text" class="form-control" id="numSerie" name="NUM_SERIE" placeholder="Ingrese el número de serie" required>
+        </div>
+
+        <!-- Campo FECHA_PRODUCCION -->
+        <div class="mb-3">
+            <label for="fechaProduccion" class="form-label">Fecha de Producción</label>
+            <input type="date" class="form-control" id="fechaProduccion" name="FECHA_PRODUCCION" required>
+        </div>
+
+        <!-- Campo FECHA_INGRESO -->
+        <div class="mb-3">
+            <label for="fechaIngreso" class="form-label">Fecha de Ingreso</label>
+            <input type="date" class="form-control" id="fechaIngreso" name="FECHA_INGRESO" required>
+        </div>
+
+        <!-- Campo PRECIO -->
+        <div class="mb-3">
+            <label for="precio" class="form-label">Precio</label>
+            <input type="number" class="form-control" id="precio" name="PRECIO" placeholder="Ingrese el precio" min="0" step="0.01" required>
+        </div>
+
+        <!-- Campo ID_PROVEEDOR (Select) -->
+        <div class="mb-3">
+            <label for="idProveedor" class="form-label">Proveedor</label>
+            <select class="form-select" id="idProveedor" name="ID_PROVEEDOR" required>
+                <option value="">Seleccione un proveedor</option>
+                @foreach( var proveedor in Model){
+                    <option value="@proveedor.Id">@proveedor.Name</option>
+                }
+            </select>
+        </div>
+
+        <!-- Botón de envío -->
+        <button type="submit" class="btn btn-primary">Guardar Producto</button>
+    </form>
+    </div>
+</section>

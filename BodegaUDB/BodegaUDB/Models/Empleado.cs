@@ -14,4 +14,6 @@ public partial class Empleado
     public int IdDetalleEmpleado { get; set; }
 
     public virtual DetalleEmpleado IdDetalleEmpleadoNavigation { get; set; } = null!;
+
+    public virtual UserRol? UserRol { get; set; }
 }

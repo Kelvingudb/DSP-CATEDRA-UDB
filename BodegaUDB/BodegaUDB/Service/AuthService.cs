@@ -16,7 +16,7 @@ namespace BodegaUDB.Service
             _dbContext = dbContext;
         }
 
-        //Metodo encargado de consultar el usuario en la base de datos y devolver su rol.
+       
         public async Task<string> AuthenticateUser(UserLoginDto userLoginDto)
         {
             string roleName = null;

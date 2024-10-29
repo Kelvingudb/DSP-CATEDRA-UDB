@@ -3,48 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\controllers\\productolotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\controllers\\productolotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\service\\loteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\service\\loteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\service\\iloteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\service\\iloteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\views\\home\\crearlote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\views\\home\\crearlote.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\controllers\\lotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\controllers\\lotecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\models\\bodegadspcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\models\\bodegadspcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\views\\shared\\_loginlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\dtos\\lotedeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\dtos\\lotedeletedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\views\\lote\\lotes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\views\\lote\\lotes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\dtos\\loteinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\dtos\\loteinfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\dtos\\loteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\dtos\\loteupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\views\\lote\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\views\\lote\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\dtos\\loteregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\dtos\\loteregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\dtos\\proveedorlotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\dtos\\proveedorlotedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\service\\proveedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\service\\proveedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\service\\iproveedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\service\\iproveedorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\service\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\service\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\views\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|c:\\users\\kelvi\\dsp catedra\\bodegaudb\\bodegaudb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{222E032B-103D-492C-B301-197E74D5DC80}|BodegaUDB\\BodegaUDB.csproj|solutionrelative:bodegaudb\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,8 +98,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "BodegaUDB\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "BodegaUDB\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAADIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T01:00:48.279Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -63,67 +121,214 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductoLoteController.cs",
-              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\ProductoLoteController.cs",
-              "RelativeDocumentMoniker": "BodegaUDB\\Controllers\\ProductoLoteController.cs",
-              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\ProductoLoteController.cs",
-              "RelativeToolTip": "BodegaUDB\\Controllers\\ProductoLoteController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADkAAABJAAAAAAAAAA==",
+              "Title": "LoteService.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\LoteService.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Service\\LoteService.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\LoteService.cs",
+              "RelativeToolTip": "BodegaUDB\\Service\\LoteService.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAkwEoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T01:35:07.898Z",
+              "WhenOpened": "2024-10-29T21:29:29.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoteController.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\LoteController.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Controllers\\LoteController.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\LoteController.cs",
+              "RelativeToolTip": "BodegaUDB\\Controllers\\LoteController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAqwD8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T21:15:59.838Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "BodegaUDB\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "BodegaUDB\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Title": "ILoteService.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\ILoteService.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Service\\ILoteService.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\ILoteService.cs",
+              "RelativeToolTip": "BodegaUDB\\Service\\ILoteService.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAjwAwAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T23:41:28.167Z"
+              "WhenOpened": "2024-10-29T19:02:56.854Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CrearLote.cshtml",
-              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Home\\CrearLote.cshtml",
-              "RelativeDocumentMoniker": "BodegaUDB\\Views\\Home\\CrearLote.cshtml",
-              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Home\\CrearLote.cshtml",
-              "RelativeToolTip": "BodegaUDB\\Views\\Home\\CrearLote.cshtml",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T01:34:31.292Z"
+              "DocumentIndex": 9,
+              "Title": "LoteUpdateDto.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\LoteUpdateDto.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Dtos\\LoteUpdateDto.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\LoteUpdateDto.cs",
+              "RelativeToolTip": "BodegaUDB\\Dtos\\LoteUpdateDto.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T22:28:53.863Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "_LoginLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeDocumentMoniker": "BodegaUDB\\Views\\Shared\\_LoginLayout.cshtml",
-              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Shared\\_LoginLayout.cshtml",
-              "RelativeToolTip": "BodegaUDB\\Views\\Shared\\_LoginLayout.cshtml",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAoAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "BodegaUDB\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "BodegaUDB\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T01:21:09.024Z"
+              "WhenOpened": "2024-10-29T22:53:43.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoteInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\LoteInfoDto.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Dtos\\LoteInfoDto.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\LoteInfoDto.cs",
+              "RelativeToolTip": "BodegaUDB\\Dtos\\LoteInfoDto.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T22:38:56.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BodegaDspContext.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Models\\BodegaDspContext.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Models\\BodegaDspContext.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Models\\BodegaDspContext.cs",
+              "RelativeToolTip": "BodegaUDB\\Models\\BodegaDspContext.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAIA+wC0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T01:38:03.879Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\AuthService.cs",
-              "RelativeDocumentMoniker": "BodegaUDB\\Service\\AuthService.cs",
-              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\AuthService.cs",
-              "RelativeToolTip": "BodegaUDB\\Service\\AuthService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwAMAAAAfAAAAAAAAAA==",
+              "Title": "Lotes.cshtml",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Lote\\Lotes.cshtml",
+              "RelativeDocumentMoniker": "BodegaUDB\\Views\\Lote\\Lotes.cshtml",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Lote\\Lotes.cshtml",
+              "RelativeToolTip": "BodegaUDB\\Views\\Lote\\Lotes.cshtml",
+              "ViewState": "AgIAAG8AAAAAAAAAAAAAAHoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T21:07:19.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoteDeleteDto.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\LoteDeleteDto.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Dtos\\LoteDeleteDto.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\LoteDeleteDto.cs",
+              "RelativeToolTip": "BodegaUDB\\Dtos\\LoteDeleteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T00:40:50.672Z"
+              "WhenOpened": "2024-10-29T23:14:12.316Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Lote\\Register.cshtml",
+              "RelativeDocumentMoniker": "BodegaUDB\\Views\\Lote\\Register.cshtml",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Lote\\Register.cshtml",
+              "RelativeToolTip": "BodegaUDB\\Views\\Lote\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-29T21:18:05.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoteRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\LoteRegisterDto.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Dtos\\LoteRegisterDto.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\LoteRegisterDto.cs",
+              "RelativeToolTip": "BodegaUDB\\Dtos\\LoteRegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T18:55:57.059Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProveedorLoteDto.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\ProveedorLoteDto.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Dtos\\ProveedorLoteDto.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Dtos\\ProveedorLoteDto.cs",
+              "RelativeToolTip": "BodegaUDB\\Dtos\\ProveedorLoteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:42:09.886Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "BodegaUDB\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T01:26:27.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "BodegaUDB\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "BodegaUDB\\Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-28T04:57:59.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProveedorService.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\ProveedorService.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Service\\ProveedorService.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\ProveedorService.cs",
+              "RelativeToolTip": "BodegaUDB\\Service\\ProveedorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:44:04.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IProveedorService.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\IProveedorService.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Service\\IProveedorService.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\IProveedorService.cs",
+              "RelativeToolTip": "BodegaUDB\\Service\\IProveedorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-29T00:41:08.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\IAuthService.cs",
               "RelativeDocumentMoniker": "BodegaUDB\\Service\\IAuthService.cs",
@@ -131,35 +336,49 @@
               "RelativeToolTip": "BodegaUDB\\Service\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T00:39:35.688Z"
+              "WhenOpened": "2024-10-28T00:39:35.688Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Program.cs",
-              "RelativeDocumentMoniker": "BodegaUDB\\Program.cs",
-              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Program.cs",
-              "RelativeToolTip": "BodegaUDB\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAC4AAAAXAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\AuthService.cs",
+              "RelativeDocumentMoniker": "BodegaUDB\\Service\\AuthService.cs",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Service\\AuthService.cs",
+              "RelativeToolTip": "BodegaUDB\\Service\\AuthService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-27T23:41:03.567Z"
+              "WhenOpened": "2024-10-29T01:17:24.072Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 19,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\appsettings.json",
+              "RelativeDocumentMoniker": "BodegaUDB\\appsettings.json",
+              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\appsettings.json",
+              "RelativeToolTip": "BodegaUDB\\appsettings.json",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwAkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-29T00:51:07.201Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Account\\Index.cshtml",
               "RelativeDocumentMoniker": "BodegaUDB\\Views\\Account\\Index.cshtml",
               "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Account\\Index.cshtml",
               "RelativeToolTip": "BodegaUDB\\Views\\Account\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAcAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-27T22:10:02.104Z"
+              "WhenOpened": "2024-10-29T00:34:40.47Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 21,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "BodegaUDB\\Controllers\\AccountController.cs",
@@ -168,30 +387,6 @@
               "ViewState": "AgIAABUAAAAAAAAAAAAmwBcAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-27T22:04:46.689Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\AdminController.cs",
-              "RelativeDocumentMoniker": "BodegaUDB\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Controllers\\AdminController.cs",
-              "RelativeToolTip": "BodegaUDB\\Controllers\\AdminController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-28T01:00:28.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Admin\\Index.cshtml",
-              "RelativeDocumentMoniker": "BodegaUDB\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\kelvi\\DSP CATEDRA\\BodegaUDB\\BodegaUDB\\Views\\Admin\\Index.cshtml",
-              "RelativeToolTip": "BodegaUDB\\Views\\Admin\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-28T01:00:48.279Z"
             }
           ]
         }

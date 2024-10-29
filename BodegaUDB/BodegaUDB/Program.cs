@@ -18,7 +18,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 
 //Servicios para el sistema.
 builder.Services.AddScoped<IAuthService, AuthService>();
-
+builder.Services.AddScoped<IProveedorService, ProveedorService>();
+builder.Services.AddScoped<ILoteService, LoteService>();
 
 //Service de la BDD.
 builder.Services.AddDbContext<BodegaDspContext>(

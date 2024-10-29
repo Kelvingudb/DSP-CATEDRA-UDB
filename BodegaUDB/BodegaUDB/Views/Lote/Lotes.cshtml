@@ -1,0 +1,134 @@
+﻿@model BodegaUDB.Dtos.LotesProveedoresDto;
+
+<div class="container mt-5">
+    <h2 class="mb-4">Listado de Lotes</h2>
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Número de Serie</th>
+                <th>Fecha de Producción</th>
+                <th>Fecha de Ingreso</th>
+                <th>Precio</th>
+                <th>Proveedor</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model.Lotes != null && Model.Lotes.Any())
+            {
+                foreach (var lote in Model.Lotes)
+                {
+                    <tr>
+                        <td>@lote.NUM_SERIE</td>
+                        <td>@lote.FECHA_PRODUCCION.ToShortDateString()</td>
+                        <td>@lote.FECHA_INGRESO.ToShortDateString()</td>
+                        <td>@lote.PRECIO.ToString("C")</td>
+                        <td>@lote.NOMBRE_PROVEEDOR</td>
+                        <td>
+                            
+                            <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editModal" onclick="populateModal(@lote.Id, @lote.NUM_SERIE,  '@lote.FECHA_PRODUCCION.ToString("yyyy-MM-dd")', '@lote.FECHA_INGRESO.ToString("yyyy-MM-dd")', @lote.PRECIO, @lote.ID_PROVEEDOR)">
+                                Editar
+                            </button>
+                        
+                            <button type="button" class="btn btn-danger btn-sm" onclick="deleteLote(@lote.Id)">Eliminar</button>
+
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" class="text-center">No se encontraron lotes.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+
+
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Editar Lote</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form method="post" asp-action="EditarLote" asp-controller="Lote">
+                    <div class="modal-body">
+                       
+                        <input type="hidden" name="Id" id="IdLote"/>
+                        <input  id="editNumSerie" name="NUM_SERIE" readonly />
+
+             
+                        <div class="mb-3">
+                            <label for="editFechaProduccion" class="form-label">Fecha de Producción</label>
+                            <input type="date" class="form-control" id="editFechaProduccion" name="FECHA_PRODUCCION" required>
+                        </div>
+
+                   
+                        <div class="mb-3">
+                            <label for="editFechaIngreso" class="form-label">Fecha de Ingreso</label>
+                            <input type="date" class="form-control" id="editFechaIngreso" name="FECHA_INGRESO" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="editPrecio" class="form-label">Precio</label>
+                            <input type="number" class="form-control" id="editPrecio" name="PRECIO" min="0" step="0.01" required>
+                        </div>
+
+               
+                        <div class="mb-3">
+                            <label for="editIdProveedor" class="form-label">Proveedor</label>
+                            <select class="form-select" id="editIdProveedor" name="ID_PROVEEDOR" required>
+                                <option value="">Seleccione un proveedor</option>
+                                @foreach (var proveedor in Model.Proveedores)
+                                {
+                                    <option value="@proveedor.Id">@proveedor.Name</option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+<script>
+    function populateModal(IdLote,numSerie, fechaProduccion, fechaIngreso, precio, idProveedor) {
+        document.getElementById("IdLote").value = IdLote; 
+        document.getElementById("editNumSerie").value = numSerie;
+        document.getElementById("editFechaProduccion").value = fechaProduccion;
+        document.getElementById("editFechaIngreso").value = fechaIngreso;
+        document.getElementById("editPrecio").value = precio;
+        document.getElementById("editIdProveedor").value = idProveedor;
+    }
+
+   function deleteLote(id) {
+    if (confirm("¿Está seguro de que desea eliminar este lote?")) {
+        console.log("ID a eliminar:", id);
+        $.ajax({
+            url: '/Lote/EliminarLote', 
+            type: 'POST',
+            contentType: 'application/json', 
+            data: JSON.stringify({ ID: id }), 
+            success: function() {
+                alert("Lote eliminado con éxito.");
+                location.reload(); 
+            },
+            error: function() {
+                alert("Hubo un problema al eliminar el lote.");
+            }
+        });
+    }
+   }
+</script>
