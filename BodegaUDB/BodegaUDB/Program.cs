@@ -20,6 +20,8 @@ builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationSc
 builder.Services.AddScoped<IAuthService, AuthService>();
 builder.Services.AddScoped<IProveedorService, ProveedorService>();
 builder.Services.AddScoped<ILoteService, LoteService>();
+builder.Services.AddScoped<ICategoriaProductoService, CategoriaProductoService>();
+builder.Services.AddScoped<IProductoService, ProductoService>();
 
 //Service de la BDD.
 builder.Services.AddDbContext<BodegaDspContext>(

@@ -1,0 +1,56 @@
+﻿@model BodegaUDB.Dtos.ProductoFormDto;
+
+@{
+    Layout = "_AdminLayout";
+}
+
+<section class="container w-100 h-100">
+    <h3>Registrar Producto</h3>
+    <form method="post" asp-action="RegisterPost" asp-controller="Producto">
+
+  
+        <div class="mb-3">
+            <label for="idCategoria" class="form-label">Categoría de Producto</label>
+            <select class="form-select" id="idCategoria" name="IdCategoria" required>
+                <option value="">Seleccione una categoría</option>
+                @foreach (var categoria in Model.Categorias)
+                {
+                    <option value="@categoria.Id">@categoria.Name</option>
+                }
+            </select>
+        </div>
+
+
+        <div class="mb-3">
+            <label for="serieLote" class="form-label">Lote</label>
+            <select class="form-select" id="SerieLote" name="SerieLote" required>
+                <option value="">Seleccione una categoría</option>
+                @foreach (var lote in Model.LoteProductos)
+                {
+                    <option value="@lote.Id">@lote.NUM_SERIE</option>
+                }
+            </select>
+        </div>
+
+        <!-- Campo NOMBRE_PRODUCTO -->
+        <div class="mb-3">
+            <label for="nombreProducto" class="form-label">Nombre del Producto</label>
+            <input type="text" class="form-control" id="nombreProducto" name="NombreProducto" placeholder="Ingrese el nombre del producto" required>
+        </div>
+
+        <!-- Campo FECHA_CADUCIDAD -->
+        <div class="mb-3">
+            <label for="fechaCaducidad" class="form-label">Fecha de Caducidad</label>
+            <input type="date" class="form-control" id="fechaCaducidad" name="FechaCaducidad">
+        </div>
+
+        <!-- Campo DESCRIPCION_PRODUCTO -->
+        <div class="mb-3">
+            <label for="descripcionProducto" class="form-label">Descripción del Producto</label>
+            <textarea class="form-control" id="descripcionProducto" name="DescripcionProducto" placeholder="Ingrese la descripción del producto"></textarea>
+        </div>
+
+        <!-- Botón de envío -->
+        <button type="submit" class="btn btn-primary">Guardar Producto</button>
+    </form>
+</section>

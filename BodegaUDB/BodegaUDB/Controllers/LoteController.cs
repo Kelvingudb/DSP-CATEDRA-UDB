@@ -1,10 +1,12 @@
 ﻿using BodegaUDB.Dtos;
 using BodegaUDB.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Diagnostics.HealthChecks;
 
 namespace BodegaUDB.Controllers
 {
+    [Authorize]
     public class LoteController : Controller
     {
         private readonly IProveedorService _proveedorService;

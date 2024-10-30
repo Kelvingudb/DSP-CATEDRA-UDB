@@ -81,6 +81,19 @@ namespace BodegaUDB.Service
             }
         }
 
-      
+        public async Task<List<LoteProductoDto>> GetLotesToProducts()
+        {
+            var Lotes = await _dbContext.Lotes.Select(
+                
+                lote => new LoteProductoDto
+                {
+                    Id = lote.IdLote,
+                    NUM_SERIE = lote.NumSerie
+                }).ToListAsync();
+
+
+            return Lotes;
+
+        }
     }
 }

@@ -11,6 +11,9 @@ namespace BodegaUDB.Service
         Task UpdateLote(LoteUpdateDto loteUpdate);
 
         Task DeleteLote(LoteDeleteDto loteDeleteDto);
+
+
+        Task<List<LoteProductoDto>> GetLotesToProducts();
     }
 }
 

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BodegaUDB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+43380bb5ebeca565a975ad66053cc9f9b6c91d25")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c266156befcb59f1682fbb213f68c842aeadcb08")]
 [assembly: System.Reflection.AssemblyProductAttribute("BodegaUDB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BodegaUDB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

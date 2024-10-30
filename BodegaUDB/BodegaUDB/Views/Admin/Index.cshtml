@@ -3,87 +3,39 @@
     Layout = "_AdminLayout";
 }
 
-<section class="container-fluid d-flex vw-100 vh-100 m-0">
-  
-    <div class="container-fluid col-12">
-        <div class="row col-4">
-            <div class="card col-12">
-                <div class="card-header">
-                    Empleados
-                </div>
-                <div class="card-body">
-                    <h5 class="card-title">Administrar empleados</h5>
-                    <p class="card-text">Administre empleados existentes,registre empleados y su rol en el sistema.</p>
-                    
-                </div>
-            </div>
-        </div>
-
-        <div class="row col-4">
-            <div class="card col-8">
+<section class="container-fluid d-flex w-100 h-100 m-0 justify-content-center align-items-center">
+     
+    <div class="row mb-5 h-25 ">
+        <div class="card z-3 shadow col-12 ">
                 <div class="card-header">
                     Productos
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Administrar productos</h5>
                     <p class="card-text">Administre productos existentes,registre productos y registre a stock.</p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <div class="container-fluid w-100 mt-3">
+                    <a asp-action="Register" asp-controller="Producto" class="btn btn-primary">Registrar producto</a>
+                    <a asp-action="GetProductos" asp-controller="Producto" class="btn btn-success">Consultar productos</a>
+                    </div>
                 </div>
             </div>
         </div>
 
-        <div class="row col-4">
-            <div class="card col-8">
+        <div class="row  h-25 mb-5 ms-5">
+            <div class="card z-3 shadow col-12">
                 <div class="card-header">
                     Lotes
                 </div>
                 <div class="card-body">
                     <h5 class="card-title">Administrar Lotes</h5>
                     <p class="card-text">Administre Lotes existentes,registre lotes y consulte lotes.</p>
-                   <a asp-action="Register" asp-controller="Lote">Registrar lote</a>
-                    <a asp-action="Lotes" asp-controller="Lote">Consultar lotes</a>
+                   <div class="container-fluid w-100 mt-3">
+                        <a asp-action="Register" asp-controller="Lote" class="btn btn-primary">Registrar lote</a>
+                        <a asp-action="Lotes" asp-controller="Lote" class="btn btn-success">Consultar lotes</a>
+                   </div>
+                    
                 </div>
             </div>
         </div>
-    </div>
-    
-
-    <div class="row col-5">
-    <div class="card col-8">
-        <div class="card-header">
-            Proveedores
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">Administrar Proveedores</h5>
-            <p class="card-text">Administre proveedores ,registre, visualice y consulte proveedores.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-    </div>
-
-    <div class="row col-5">
-    <div class="card col-8">
-        <div class="card-header">
-            Stock
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">Administrar Stock</h5>
-            <p class="card-text">Administre productos en stock,registre stock y consulte la ubicacion de los productos.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
-    </div>
-
-    <div class="row col-5 ">
-    <div class="card col-8">
-        <div class="card-header">
-            Pasillos
-        </div>
-        <div class="card-body">
-            <h5 class="card-title">Administrar Pasillos</h5>
-            <p class="card-text">Administre pasillos de su bodega,consulte los productos que tiene cada pasillo.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-    </div>
     </div>
 </section>

@@ -25,15 +25,15 @@ namespace BodegaUDB.Controllers
         public async Task<IActionResult> Index(UserLoginDto userLoginDto)
         {
            
-                // Llamar al servicio de autenticación
+               
                 string roleName = await _authService.AuthenticateUser(userLoginDto);
 
-                if (roleName != null) // Autenticación exitosa
+                if (roleName != null) 
                 {
                     var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, userLoginDto.UserName),
-                    new Claim(ClaimTypes.Role, roleName) // Agregar el rol
+                    new Claim(ClaimTypes.Role, roleName) 
                 };
 
                     var claimsIdentity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationScheme);
@@ -53,6 +53,17 @@ namespace BodegaUDB.Controllers
                 }
                     ModelState.AddModelError("", "Credenciales inválidas.");
                  return View(userLoginDto);
+        }
+
+
+        [HttpPost]
+        public async Task<IActionResult> Logout()
+        {
+         
+            await HttpContext.SignOutAsync();
+
+          
+            return RedirectToAction("Index", "Account");
         }
     }
 }

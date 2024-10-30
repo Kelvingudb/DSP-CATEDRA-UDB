@@ -1,0 +1,112 @@
+﻿@model List<BodegaUDB.Dtos.ProductoInfoDto>;
+@{
+    Layout = "_AdminLayout";
+}
+<div class="container mt-5">
+    <h2 class="mb-4">Listado de Productos</h2>
+    <table class="table table-striped table-bordered">
+        <thead class="table-dark">
+            <tr>
+                <th>Id del producto</th>
+                <th>Nombre del Producto</th>
+                <th>Fecha de Caducidad</th>
+                <th>Categoría</th>
+                <th>Lote</th>
+                <th>Opciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var producto in Model)
+                {
+                    <tr>
+                        <td>@producto.Id</td>
+                        <td>@producto.Name</td>
+                        <td>@producto.Fecha_caducidad.ToString("yyyy-MM-dd")</td>
+                        <td>@producto.Categoria_Producto</td>
+                        <td>@producto.NUM_SERIE</td>
+                        <td>
+                            <button type="button" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editModal" onclick="populateModal(@producto.Id, '@producto.Name', '@producto.Fecha_caducidad.ToString("yyyy-MM-dd")', '@producto.Categoria_Producto', @producto.NUM_SERIE)">
+                                Editar
+                            </button>
+                            <button type="button" class="btn btn-danger btn-sm" onclick="deleteProducto(@producto.Id)">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" class="text-center">No se encontraron productos.</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editModalLabel">Editar Producto</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form method="post" asp-action="EditarProducto" asp-controller="Producto">
+                    <div class="modal-body">
+                        <input type="hidden" name="Id" id="IdProducto"/>
+                        <div class="mb-3">
+                            <label for="editNombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="editNombre" name="Nombre" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editFechaCaducidad" class="form-label">Fecha de Caducidad</label>
+                            <input type="date" class="form-control" id="editFechaCaducidad" name="FechaCaducidad" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="editCategoria" class="form-label">Categoría</label>
+                            <input type="text" class="form-control" id="editCategoria" name="Categoria" readonly />
+                        </div>
+                        <div class="mb-3">
+                            <label for="editNumSerie" class="form-label">Número de Serie</label>
+                            <input type="text" class="form-control" id="editNumSerie" name="NumSerie" required>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                        <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+    function populateModal(IdProducto, nombre, fechaCaducidad, categoria, numSerie) {
+        document.getElementById("IdProducto").value = IdProducto; 
+        document.getElementById("editNombre").value = nombre;
+        document.getElementById("editFechaCaducidad").value = fechaCaducidad;
+        document.getElementById("editCategoria").value = categoria;
+        document.getElementById("editNumSerie").value = numSerie;
+    }
+
+    function deleteProducto(id) {
+        if (confirm("¿Está seguro de que desea eliminar este producto?")) {
+            console.log("ID a eliminar:", id);
+            $.ajax({
+                url: '/Producto/EliminarProducto', 
+                type: 'POST',
+                contentType: 'application/json', 
+                data: JSON.stringify({ ID: id }), 
+                success: function() {
+                    alert("Producto eliminado con éxito.");
+                    location.reload(); 
+                },
+                error: function() {
+                    alert("Hubo un problema al eliminar el producto.");
+                }
+            });
+        }
+    }
+</script>
